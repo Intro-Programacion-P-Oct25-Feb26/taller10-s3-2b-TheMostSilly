@@ -21,7 +21,7 @@ public class Problema03 {
         for (int fila = 0; fila < sensores.length; fila++) {
             int suma = 0;
             for (int col = 0; col < sensores[fila].length; col++) {
-                if (sensores[fila][col] == true) {
+                if (sensores[fila][col] == false) {
                     suma += 1;
                 }
             }
